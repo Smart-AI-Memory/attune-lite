@@ -1,0 +1,19 @@
+{
+  "name": "attune-lite",
+  "version": "1.0.0",
+  "description": "Code review, security audit, test generation, bug prediction, and documentation generation using multi-agent workflows.",
+  "author": {
+    "name": "Smart AI Memory",
+    "email": "admin@smartaimemory.com",
+    "url": "https://github.com/Smart-AI-Memory"
+  },
+  "repository": "https://github.com/Smart-AI-Memory/attune-lite",
+  "license": "Apache-2.0",
+  "keywords": [
+    "code-review",
+    "security",
+    "testing",
+    "bug-prediction",
+    "documentation"
+  ]
+}
