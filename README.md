@@ -1,8 +1,8 @@
 # Attune Lite
 
-Five developer workflow skills for Claude Code: code review,
-security audit, test generation, bug prediction, and
-documentation generation. No dependencies required.
+Six developer workflow commands for Claude Code: code review,
+security audit, test generation, test fixing, bug prediction,
+and documentation generation. No dependencies required.
 
 ## Commands
 
@@ -11,6 +11,7 @@ documentation generation. No dependencies required.
 | `/code-review <path>` | Multi-pass code review (security, quality, performance, architecture) |
 | `/security-audit <path>` | OWASP-aligned vulnerability scan with remediation plan |
 | `/smart-test <path>` | Find test gaps and generate tests for uncovered code |
+| `/fix-test --lf` | Auto-diagnose and fix failing tests with retry loop (up to 3 attempts) |
 | `/bug-predict <path>` | Predict likely bug locations from patterns and complexity |
 | `/doc-gen <path>` | Generate documentation from source code |
 
@@ -61,6 +62,8 @@ Score: 82/100 | Files reviewed: 24 | Issues: 11
   structured vulnerability assessment
 - When adding features -- run `/smart-test` to generate tests
   for new code
+- When tests fail -- run `/fix-test --lf` to auto-diagnose and
+  fix failures instead of manually reading each traceback
 - Before releases -- run `/bug-predict` to find high-risk
   areas
 - When onboarding -- run `/doc-gen` to generate documentation

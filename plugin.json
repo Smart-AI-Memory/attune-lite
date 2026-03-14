@@ -1,7 +1,7 @@
 {
   "name": "attune-lite",
-  "version": "1.0.0",
-  "description": "Code review, security audit, test generation, bug prediction, and documentation generation using multi-agent workflows.",
+  "version": "1.0.1",
+  "description": "Six developer workflow commands for Claude Code: code review, security audit, test generation, test fixing, bug prediction, and documentation generation.",
   "author": {
     "name": "Smart AI Memory",
     "email": "admin@smartaimemory.com",
@@ -13,6 +13,7 @@
     "code-review",
     "security",
     "testing",
+    "test-fixing",
     "bug-prediction",
     "documentation"
   ]
