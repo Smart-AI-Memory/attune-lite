@@ -1,0 +1,15 @@
+{
+  "name": "attune-lite",
+  "owner": {
+    "name": "Smart AI Memory",
+    "email": "admin@smartaimemory.com"
+  },
+  "plugins": [
+    {
+      "name": "attune-lite",
+      "source": ".",
+      "description": "Six developer workflow commands for Claude Code: code review, security audit, test generation, test fixing, bug prediction, and documentation generation.",
+      "version": "1.0.1"
+    }
+  ]
+}

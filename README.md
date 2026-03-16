@@ -6,8 +6,16 @@ and documentation generation. No dependencies required.
 
 ## Install
 
+**Step 1:** Add the marketplace:
+
 ```bash
-claude plugin install Smart-AI-Memory/attune-lite
+claude plugin marketplace add Smart-AI-Memory/attune-lite
+```
+
+**Step 2:** Install the plugin:
+
+```bash
+claude plugin install attune-lite
 ```
 
 Verify it loaded:
