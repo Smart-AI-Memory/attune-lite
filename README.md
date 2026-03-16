@@ -4,6 +4,18 @@ Six developer workflow commands for Claude Code: code review,
 security audit, test generation, test fixing, bug prediction,
 and documentation generation. No dependencies required.
 
+## Install
+
+```bash
+claude plugin install Smart-AI-Memory/attune-lite
+```
+
+Verify it loaded:
+
+```bash
+/plugins
+```
+
 ## Commands
 
 | Command | What it does |
