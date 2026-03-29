@@ -1,7 +1,7 @@
 {
   "name": "attune-lite",
-  "version": "1.0.1",
-  "description": "Six developer workflow commands for Claude Code: code review, security audit, test generation, test fixing, bug prediction, and documentation generation.",
+  "version": "1.0.2",
+  "description": "[DEPRECATED] Use attune-ai instead — github.com/Smart-AI-Memory/attune-ai",
   "author": {
     "name": "Smart AI Memory",
     "email": "admin@smartaimemory.com",
